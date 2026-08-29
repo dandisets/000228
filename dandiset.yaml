@@ -34,7 +34,8 @@ assetsSummary:
   - VoltageClampStimulusSeries
   - VoltageClampSeries
 citation: Chartrand, Thomas; Kalmbach, Brian; Molnar, Gabor; Tamas, Gabor; Lein, Ed
-  (2026) 20220330_AIBS_Patchseq_human (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/000228/draft
+  (2026) 20220330_AIBS_Patchseq_human (Version 0.260829.2040) [Data set]. DANDI Archive.
+  https://doi.org/10.48324/dandi.000228/0.260829.2040
 contributor:
 - affiliation: []
   email: tmchartrand@gmail.com
@@ -78,9 +79,11 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2022-03-30T17:27:56.819855+00:00'
+datePublished: '2026-08-29T20:40:03.982022+00:00'
 description: U01 Lein PatchSeq upload March 2022
+doi: 10.48324/dandi.000228/0.260829.2040
 ethicsApproval: []
-id: DANDI:000228/draft
+id: DANDI:000228/0.260829.2040
 identifier: DANDI:000228
 keywords:
 - Patch-seq
@@ -89,16 +92,28 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000228/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000228/0.260829.2040/assets.yaml
 name: 20220330_AIBS_Patchseq_human
 protocol:
 - https://www.protocols.io/view/patch-seq-recording-and-extraction-bepyjdpw
+publishedBy:
+  endDate: '2026-08-29T20:40:03.982022+00:00'
+  id: urn:uuid:b0ee5756-a10f-4dae-a288-73b24598c374
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-29T20:40:03.982022+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:0a1da229-abc5-4de7-a0d6-fc6929b99de7
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.2
 studyTarget:
 - human neocortical neurons
-url: https://dandiarchive.org/dandiset/000228/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000228/0.260829.2040
+version: 0.260829.2040
 wasGeneratedBy: []
